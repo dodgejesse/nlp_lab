@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.6.15)  17 JAN 2014 20:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.6.15)  24 JAN 2014 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,28 +409,50 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 53.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-No file report-template-2014.bbl.
-[1
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 ...r/statgram/frdep/fr_stat_dep_parsing.html}
+                                                   which contains 12,531 sen...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 ...r/statgram/frdep/fr_stat_dep_parsing.html}
+                                                   which contains 12,531 sen...
+
+? 
+(./report-template-2014.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
+
+) [1
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./report-template-2014.aux) ) 
+[2] (./report-template-2014.aux) ) 
 Here is how much of TeX's memory you used:
- 4678 strings out of 493481
- 68672 string characters out of 3140986
- 132069 words of memory out of 3000000
- 7881 multiletter control sequences out of 15000+200000
- 11064 words of font info for 44 fonts, out of 3000000 for 9000
+ 4712 strings out of 493481
+ 69069 string characters out of 3140986
+ 134069 words of memory out of 3000000
+ 7903 multiletter control sequences out of 15000+200000
+ 15461 words of font info for 64 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,6n,43p,451b,204s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
+ 38i,11n,43p,749b,204s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr17.pfb>
-Output written on report-template-2014.pdf (1 page, 58093 bytes).
+/amsfonts/cm/cmr17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr9.pfb>
+Output written on report-template-2014.pdf (2 pages, 113342 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

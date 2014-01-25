@@ -1,0 +1,6 @@
+@inproceedings{liang11dcs,
+  author = {A. Abeillé and L. Clément and F. Toussenel},
+  booktitle = {A. Abeillé (ed) Treebanks},
+  title = {Building a treebank for French},
+  year = {2003},
+}
