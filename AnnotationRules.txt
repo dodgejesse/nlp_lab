@@ -1,0 +1,26 @@
+Rules for annotating dependencies:
+When the word 'de' is used as a preposition to modify an adjective with a noun, we will consider 'de' to be the dependent of the corresponding adjective.
+The past participle will be the head of the auxiliary verb.
+For reflexive verbs, stressed participle should be a child of the verb itself.
+For indirect and direct pronouns, the pronoun is a child of the verb.
+For 'ne pas', we will have 'pas' a child of 'ne', and 'ne' a child of the verb. (note, even if there is an auxiliary verb, 'ne' will be the child of the head verb.)
+Example: 'ont ete perpe^tre^s', both 'ont' and 'ete' are children of the head verb.
+'That' is a child of the head verb in sentences like 'we learned that something happened.' learned is parent of 'that'.
+Transitions like 'en revange' are children of the head verb directly. 
+Idiomatic phrases like 'tout a fait', tout <- fait, a <- fait.
+'jour_1 apres_2 jour_3': jour_1 <- apres_2, jour_1 <- jour_3.
+Idiomatic phrases: 'est d' accord': d' <- accord, est 
+For names, first name is child of last name.
+Il y a: Il <- a, y <- a.
+Conjunctions, such as 'but', (i.e. mais) that have dependent clauses, they are children of the head verb of that clause. 
+When clauses have no semantic meaning and are transitional phrases, the smaller bits are connected to the bigger bits. I.e. 'en effet': en <- effet, where 'en' is the preposition and 'effet' is the noun. Similar to 'tout a fait'.
+Conjunctions such as 'et', in 'we went to the store thursday and friday', we have went <- and, went <- thursday, went <- friday. this is true in subordinant clauses as well, where the conjuction and it's arguments go to the head verb of that clause.
+in a-t-il 
+
+
+
+deja: attaches to the past participle in costructions like 'a deja ete introduite'
+when we have 'fait-il verb', where the fait-il makes the sentence a question, we put the fait-il as the head.
+for names of directives, we can have the name be the child of 'directive'. such as 'directive 55 / 90 / 45', we have 'directive <- 55', 'directive <- 90', and 'directive <- 45'.
+
+*ne and pas should be children of the verb itself! otherwise we have projective trees. wtf.

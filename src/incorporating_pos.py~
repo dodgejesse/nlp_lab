@@ -1,0 +1,18 @@
+import sys
+
+
+def output_combination(anno_data, pos_data, loc):
+    pos_lines = pos_data.split('\n')
+    cur_pos_token = 0;
+    out = '';
+    
+    for i in range(0,len(pos_lines)):
+        for j in range(0,len(pos_lines[i])):
+            
+                        
+            
+
+if __name__=='__main__':
+    anno_data = open(sys.argv[1]).read();
+    pos_data = open(sys.argv[2]).read();
+    output_combination(anno_data, pos_data, sys.argv[3])
