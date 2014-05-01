@@ -6,18 +6,24 @@ def output_combination(anno_data, pos_data, loc):
     conll_lines = anno_data.split('\n')
     out = '';
     
+#    print len(pos_data.split('\n'))
     for line in pos_data.split('\n'):
+#        print line
+        if len(line.split(' ')) > 30:
+            continue;
         for token in line.split(' '):
             out_line_conll = conll_lines[token_counter].split('\t');
             pos = token.split('_')[1];
-            print out_line_conll
-            print token
-            print
-            out_line_conll[6] = pos;
+#            print out_line_conll
+#            print token
+#            print
+            out_line_conll[3] = pos;
+            out_line_conll[7] = '_';
             out_line = out_line_conll[0];
-            for i in range(0, len(out_line_conll)):
+            for i in range(1, len(out_line_conll)):
                 out_line = out_line + '\t' + out_line_conll[i]
-            out = out_line + '\n';
+            print out_line
+            out += out_line + '\n';
             token_counter += 1;
         out = out + '\n';
         token_counter += 1;
