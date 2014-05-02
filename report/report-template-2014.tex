@@ -70,7 +70,8 @@ Note: we can put something more here about other syntax formalisms as they come 
 
 \section{Available Resources}
 French is one of the most spoken languages in the world. There is a tremendous amount of available text in French, from French news articles to French wikipedia to French literature. In this work, we will focus on Europarl, a . Europarl\footnote{http://www.statmt.org/europarl/} has 194 MB copus of French-English text that I can annotate. Simply taking the first 2000 words and dividing it into A and B test sets will give us the data we need. Note: The fact this is parallel data is interesting, but not necessary. (Note: There exists a large corpus of Le Monde\footnote{http://alpage.inria.fr/statgram/frdep/fr_stat_dep_parsing.html} that I can use either as the test corpora as well, if Europarl is too formal. Also, this data can be used for semi-supervised training, though it is annonated already with constituency parses.) 
-TreeTagger\footnote{http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/} is an open-source POS tagger for French. 
+TreeTagger\footnote{http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/} is an open-source part of speech tagger for French. 
+Stanford has trained a part of speech tagger for French, which is trained on the French treebank. This gives coarse part of speech tags. 
 
 \section{Survey of Phenomena in French}
 In this section, we will focus on the relevant phenomena in French for dependency parsing. 
@@ -81,12 +82,15 @@ As a Romance language, French has a number of interesting phenomena .
 
 
 \section{Initial Design}
+For the initial design, we will train TurboParser \footnote{https://www.ark.cs.cmu.edu/TurboParser/}, a fully supervised dependency parser. TurboParser is a nonprojective dependency parser that uses up to third-order features for grand-siblings and tri-siblings, and has state-of-the-art performance on English dependency parsing. Our training data consisted of 1,000 tokens of French Europarl annotated with unlabeled dependency trees . For this experiment, we used the default settings on TurboParser, and tested on another 1,000 tokens of annotated French Europarl. 
 
 \section{System Analysis on Corpus A}
+The initial design lead to an accuracy of 55%. When analyzing the errors, it became evident that a significant portion of the errors came from the annotations of punctuation. There were no guidelines for how to do this, and the way i did it didn't work well. so i changed it. 
 
 \section{Lessons Learned and Revised Design}
 
 \section{System Analysis on Corpus B}
+Here the way i did it was better. 
 
 \section{Final Revisions}
 
